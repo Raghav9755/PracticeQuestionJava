@@ -2,18 +2,17 @@ package PracticeQuestionsJava.RecursionJava;
 
 public class PrintNo {
     public static void printNo(int n){
-        if(n==0){
+        if(n==6){
             return;
         }
-       
-        n=n-1;
+        System.out.print(n);
+        n++;
         printNo(n);
 
     }
     public static void main(String args[])
     {
-        int n=5;
-        System.out.print(n);
+        int n=1;
         printNo(n);
     } 
 
