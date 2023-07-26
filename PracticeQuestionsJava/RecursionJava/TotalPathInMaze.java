@@ -20,3 +20,4 @@ public class TotalPathInMaze {
         System.out.println(total);
     }    
 }
+ 
