@@ -18,7 +18,7 @@ public class FirstLastElements {
             else{last=i;}
         }
         printElements(str, i+1, element);
-    }
+    } 
     public static void main(String args[]){
         String str="raghava";
 
